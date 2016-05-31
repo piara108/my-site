@@ -4,6 +4,8 @@ ruby '2.3.0'
 
 gem 'figaro'
 
+gem 'rails_12factor', group: :production
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.2'
 # Use postgresql as the database for Active Record
