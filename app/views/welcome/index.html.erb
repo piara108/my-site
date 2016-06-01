@@ -1,8 +1,23 @@
-<h1>Piara Sandhu</h1>
-<p>Welcome to My Personal Portfolio</p>
+<div class="container">
+  <div id="title-bar">
+    <h1>Piara Sandhu</h1>
+    <p>Welcome to My Personal Portfolio</p>
+  </div>
 
-<div id="img-box">
-  <%= image_tag("coding-icon.png", :alt => "projects") %>
-  <%= image_tag("resume-icon.png", :alt => "resume") %>
-  <%= image_tag("contact-icon.png", :alt => "contact") %>
+  <div id="img-bar">
+    <div id="img-box">
+      <div id="images">
+        <%= image_tag("coding-icon.png", :alt => "projects", :class => "image") %>
+        <%= image_tag("resume-icon.png", :alt => "resume", :class => "image") %>
+        <%= image_tag("contact-icon.png", :alt => "contact", :class => "image") %>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="info-box">
+      <p>Piara Sandhu</p>
+      <p>2016</p>
+    </div>
+  </footer>
 </div>
