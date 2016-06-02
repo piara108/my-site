@@ -1,24 +1,25 @@
-<div class="container">
+<div id="white-bar"></div>
+
+<div id="container">
   <div id="title-bar">
-    <h1>Piara Sandhu</h1>
-    <p>Welcome to My Personal Portfolio</p>
+    <p id="title">Piara Sandhu</p>
+    <p id="byline">web developer</p>
   </div>
 
-  <div class="site-body">
+  <div id="site-body">
     <div id="img-bar">
       <div id="img-box">
         <div id="images">
-          <a href="/portfolio"><%= image_tag("coding-icon.png", :alt => "projects", :class => "image") %></a>
-          <a href="/resume"><%= image_tag("resume-icon.png", :alt => "resume", :class => "image") %></a>
-          <a href="/contact"><%= image_tag("contact-icon.png", :alt => "contact", :class => "image") %></a>
+          <a href="/portfolio"><%= image_tag("coding-icon.png", :alt => "projects", :class => "icons") %></a>
+          <a href="/resume"><%= image_tag("resume-icon.png", :alt => "resume", :class => "icons") %></a>
+          <a href="/contact"><%= image_tag("contact-icon.png", :alt => "contact", :class => "icons") %></a>
         </div>
       </div>
     </div>
 
-    <footer>
-      <div class="info-box">
-        <p>Piara Sandhu</p>
-        <p>2016</p>
+    <footer class="info-box">
+      <div>
+        <p>Piara Sandhu | 2016</p>
       </div>
     </footer>
   </div>

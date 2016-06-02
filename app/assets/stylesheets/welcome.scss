@@ -2,68 +2,208 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.container {
+// $white-font: white;
+// $font-name: 'earth-orbiter-condensed';
+// $title-size: 4em;
+// $background-color: #3dd0ac;
+// $image-diameter: 15em;
+//
+// @font-face {
+//   font-family: 'earth-orbiter-condensed';
+//   src: url(asset-path('fonts/earthorbitercond.ttf'));
+//   src: url(asset-path('fonts/earthorbitercond.ttf')) format('truetype');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+//
+// body {
+//   height: 100%;
+//
+//   margin: 0;
+//   padding: 0;
+//
+//   overflow-y: scroll;
+// }
+//
+// #container {
+//   margin-top: 1em;
+//   background-color: $background-color;
+// }
+//
+// #white-body {
+//   height: 2em;
+// }
+//
+// #title-bar {
+//   top: 15%;
+//
+//   // position: relative;
+//   margin-top: 0;
+//
+//   border: 5px solid;
+//   border-color: red;
+//
+//   // margin-top: -.5em;
+//   // margin-bottom: -.5em;
+//
+//   padding-top: 0;
+//
+//   #title {
+//     color: $font-color;
+//     font-family: $font-name;
+//     font-size: 400%;
+//     margin-bottom: -.25em;
+//   }
+//
+//   #byline {
+//     color: $font-color;
+//     font-family: $font-name;
+//     font-size: 2em;
+//   }
+// }
+//
+// #title-bar {
+//   margin-top: 1em;
+//   margin-bottom: -2em;
+//
+//   text-align: center;
+// }
+//
+// #site-body {
+//   overflow-y: scroll;
+// }
+//
+// #img-bar {
+//   top: 50%;
+//   height: 20em;
+//   position: relative;
+//
+//   margin-top: 15%;
+// }
+//
+// #img-box {
+//   width: 80%;
+//
+//   margin: auto;
+//   padding: 1em;
+//
+//   transform: translateY(-50%);
+//
+//   text-align: center;
+//
+//   // border: 2px solid;
+//   // border-color: red;
+// }
+//
+// #images {
+//   display: inline-block;
+// }
+//
+// .icons {
+//   height: $image-diameter;
+//   width: $image-diameter;
+//
+//   margin-right: 3em;
+// }
+//
+// footer {
+//   bottom: 0;
+//   position: absolute;
+//
+//   height: 4em;
+//   width: 100%;
+//
+//   background-color: #009B77;
+// }
+//
+// footer .info-box {
+//   line-height: .25em;
+//   text-align: center;
+//   color: white;
+// }
 
+// =========================New CSS=====================
+
+$white-font: white;
+$font-name: 'earth-orbiter-condensed';
+$title-size: 4em;
+$background-color: #3dd0ac;
+$image-diameter: 15em;
+
+// Sets up the Earth Orbiter font
+@font-face {
+  font-family: 'earth-orbiter-condensed';
+  src: url(asset-path('fonts/earthorbitercond.ttf'));
+  src: url(asset-path('fonts/earthorbitercond.ttf')) format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
+// Body of the HTML doc
 body {
-  height: 100%;
   margin: 0;
-  padding: 0;
-  overflow-y: scroll;
 }
 
+// Contains content of the page
+#container {
+  height: 100%;
+  background-color: $background-color;
+
+  border: 2px solid;
+  border-color: $background-color;
+}
+
+// White bar at the top of the screen
+#white-bar {
+  height: 1.30em;
+}
+
+// Title bar contains my name and position
 #title-bar {
-  margin-top: 2em;
-  text-align: center;
-  margin-bottom: -2em;
-}
-
-.site-body {
-  overflow-y: scroll;
-}
-
-#img-bar {
-  margin-top: 20%;
-  height: 20em;
-  position: relative;
-  top: 50%;
-}
-
-#img-box {
-  margin: auto;
-  padding: 1em;
-  width: 80%;
-  text-align: center;
-  // position: relative;
-  transform: translateY(-50%);
-
+  width: 100%;
+  height: 7em;
 
   // border: 2px solid;
   // border-color: red;
+
+  // CSS for my name
+  #title {
+    margin-top: 1em;
+    margin-bottom: -.25em;
+
+    font-family: $font-name;
+    color: $white-font;
+    text-align: center;
+    font-size: 4em;
+  }
+
+  // CSS for title
+  #byline {
+    font-family: $font-name;
+    color: $white-font;
+    text-align: center;
+    font-size: 1.5em;
+  }
 }
 
-#images {
-  display: inline-block;
-}
-
-.image {
-  height: 15em;
-  width: 15em;
-  margin-right: 3em;
-}
-
-footer {
-  // margin-bottom: 0;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 4em;
-  background-color: #009B77;
-}
-
-footer .info-box {
-  line-height: .25em;
+#site-body {
+  border: 2px solid;
+  border-color: blue;
   text-align: center;
-  color: white;
+}
+
+.icons {
+  height: $image-diameter;
+  width: $image-diameter;
+}
+
+.info-box {
+  bottom: 0;
+  position: absolute;
+
+  height: 4em;
+  width: 100%;
+  background-color: $background-color;
+  text-align: center;
+  color: $white-font;
 }
