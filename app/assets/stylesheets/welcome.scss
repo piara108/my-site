@@ -10,6 +10,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow-y: scroll;
 }
 
 #title-bar {
@@ -18,8 +19,13 @@ body {
   margin-bottom: -2em;
 }
 
+.site-body {
+  overflow-y: scroll;
+}
+
 #img-bar {
   margin-top: 20%;
+  height: 20em;
   position: relative;
   top: 50%;
 }
@@ -27,7 +33,7 @@ body {
 #img-box {
   margin: auto;
   padding: 1em;
-  width: 60%;
+  width: 80%;
   text-align: center;
   // position: relative;
   transform: translateY(-50%);
@@ -44,6 +50,7 @@ body {
 .image {
   height: 15em;
   width: 15em;
+  margin-right: 3em;
 }
 
 footer {
@@ -51,7 +58,8 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: green;
+  height: 4em;
+  background-color: #009B77;
 }
 
 footer .info-box {

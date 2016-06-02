@@ -1,4 +1,4 @@
 class WelcomeController < ApplicationController
-  def contact
+  def resume
   end
 end

@@ -4,20 +4,22 @@
     <p>Welcome to My Personal Portfolio</p>
   </div>
 
-  <div id="img-bar">
-    <div id="img-box">
-      <div id="images">
-        <%= image_tag("coding-icon.png", :alt => "projects", :class => "image") %>
-        <%= image_tag("resume-icon.png", :alt => "resume", :class => "image") %>
-        <%= image_tag("contact-icon.png", :alt => "contact", :class => "image") %>
+  <div class="site-body">
+    <div id="img-bar">
+      <div id="img-box">
+        <div id="images">
+          <a href="/portfolio"><%= image_tag("coding-icon.png", :alt => "projects", :class => "image") %></a>
+          <a href="/resume"><%= image_tag("resume-icon.png", :alt => "resume", :class => "image") %></a>
+          <a href="/contact"><%= image_tag("contact-icon.png", :alt => "contact", :class => "image") %></a>
+        </div>
       </div>
     </div>
-  </div>
 
-  <footer>
-    <div class="info-box">
-      <p>Piara Sandhu</p>
-      <p>2016</p>
-    </div>
-  </footer>
+    <footer>
+      <div class="info-box">
+        <p>Piara Sandhu</p>
+        <p>2016</p>
+      </div>
+    </footer>
+  </div>
 </div>
