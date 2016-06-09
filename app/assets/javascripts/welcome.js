@@ -11,7 +11,7 @@ $(document).ready(function() {
   // });
 
   $('.list-items').on('mouseenter', function() {
-    $(this).find('li').css('font-size', '3em');
+    $(this).find('li').css('font-size', '2em');
   });
 
   $('.list-items').on('mouseleave', function() {
