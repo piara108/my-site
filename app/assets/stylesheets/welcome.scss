@@ -17,6 +17,7 @@ $total-height: 100%;
 $width-margin: 79.5%;
 $border-deets: 2px solid;
 
+// font face mixin for Adam
 @font-face {
   font-family: "Adam";
   src: url("fonts/Adam.otf") format("opentype");
@@ -122,6 +123,22 @@ body {
     a:visited {
         text-decoration: none;
         color: $color-white;
+    }
+
+    // Attributes for social media icons
+    .image-bar {
+        width: 100%;
+        height: 2em;
+
+        margin-top: 2.25em;
+        padding: .50em;
+
+        // border: $border-deets;
+        // border-color: white;
+    }
+
+    .image {
+      margin-right: .5em;
     }
 }
 
