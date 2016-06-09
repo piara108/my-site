@@ -19,11 +19,25 @@
     <div class="sep-line"></div>
 
     <div class="image-bar">
-      <a href="https://github.com/piara108"><%= image_tag("github-icon.png", :alt => "github", :class => "image") %></a>
-      <a href="https://www.linkedin.com/in/piarasandhu"><%= image_tag("linkedin-icon.png", :alt => "linkedin", :class => "image") %></a>
-      <a href="mailto:piarasandhu108@gmail.com"><%=  image_tag("email-icon.png", :alt => "email", :class => "image") %></a>
-      <a href="https://twitter.com/sikh_n_destroy"><%= image_tag("twitter-icon.png", :alt => "twitter", :class => "image") %></a>
-      <a href="http://stackexchange.com/users/3317568/piara-sandhu"><%= image_tag("stackoverflow-icon.png", :alt => "stack", :class => "image") %></a>
+      <%= link_to "https://github.com/piara108", :target => "_blank" do %>
+        <%= image_tag("github-icon.png", :alt => "github", :class => "image") %>
+      <% end %>
+
+      <%= link_to "https://www.linkedin.com/in/piarasandhu", :target => "_blank" do %>
+        <%= image_tag("linkedin-icon.png", :alt => "linkedin", :class => "image") %>
+      <% end %>
+
+      <%= link_to "mailto:piarasandhu108@gmail.com", :target => "_blank" do %>
+        <%= image_tag("email-icon.png", :alt => "email", :class => "image") %>
+      <% end %>
+
+      <%= link_to "https://twitter.com/sikh_n_destroy", :target => "_blank" do %>
+        <%= image_tag("twitter-icon.png", :alt => "twitter", :class => "image") %>
+      <% end %>
+
+      <%= link_to "http://stackexchange.com/users/3317568/piara-sandhu", :target => "_blank" do %>
+        <%= image_tag("stackoverflow-icon.png", :alt => "stack", :class => "image") %>
+      <% end %>
     </div>
   </nav>
 
