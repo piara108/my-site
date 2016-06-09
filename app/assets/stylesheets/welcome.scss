@@ -3,10 +3,20 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 // Declared SASS variables for the page
+
+// variables for color
 $color-white: white;
+// $color-green: #09ca89;
+$color-teal: #07889b;
+// $color-powder: #66b9bf;
+// $color-powder: #00ff6d;
+$color-seafoamish: #75f0e7;
+
+// variables for sizes and dimensions
 $title-font-size: 3em;
 $total-height: 100%;
 $width-margin: 79.5%;
+$border-deets: 2px solid;
 
 // Removes the bounce effect when scrolling
 html {
@@ -32,7 +42,9 @@ body {
     float: left;
     position: fixed;
 
-    background-color: #09ca89;
+    // background-color: $color-teal;
+
+    background: linear-gradient(to bottom, $color-teal, $color-powder);
 
     // border: 2px solid;
     // border-color: black;
@@ -40,6 +52,7 @@ body {
     // Bar containing my name
     .header {
         margin-left: -1.5em;
+        margin-bottom: 2em;
 
         // border: 2px solid;
         // border-color: green;
@@ -58,9 +71,18 @@ body {
 
     // The separator bar
     .sep-line {
-        height: .5em;
+        height: 0em;
+        width: 70%;
 
-        // border-bottom: 2px solid;
+        // margin-left: 1.5em;
+        margin-left: 14%;
+        margin-bottom: -1em;
+        // margin-right: 1em;
+
+        border-bottom: $border-deets;
+        border-color: white;
+
+        // border-bottom: $border-deets;
         // border-color: black;
     }
 
@@ -78,13 +100,12 @@ body {
         padding-left: 0.35em;
         padding-top: .5em;;
 
-        // border: 2px solid;
+        // border: $border-deets;
         // border-color: red;
     }
 
     a:link {
         text-decoration: none;
-        // color: black;
         color: $color-white;
     }
 
@@ -109,16 +130,17 @@ body {
 
         margin-left: 20.75%;
 
-        background-color: #09ca89;
+        background-color: $color-teal;
 
-        // border: 2px solid;
+        background: linear-gradient(to right, $color-teal, $color-powder);
+
+        // border: $border-deets;
         // border-color: orange;
     }
 
     // CSS for page title
     .page-title {
         margin-top: .15em;
-        // margin-bottom: -1em;
 
         text-align: center;
         font-size: $title-font-size;
@@ -128,7 +150,6 @@ body {
     // Body content
     .body-content {
         height: $total-height;
-        // width: 80%;
         width: $width-margin;
 
         right: 0px;
@@ -138,7 +159,7 @@ body {
 
         margin-top: 7.5%;
 
-        // border: 1px solid;
+        // border: $border-deets;
         // border-color: blue;
 
         // The body content text
@@ -150,7 +171,7 @@ body {
             margin-right: 3em;
             margin-left: 3em;
 
-            // border: 1px solid;
+            // border: $border-deets;
             // border-color: green;
         }
     }
