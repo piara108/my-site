@@ -1,18 +1,15 @@
 Rails.application.routes.draw do
-  get 'welcome/resume'
-
   get 'welcome/portfolio'
 
   get '/index', :to => 'welcome#index'
   get '/portfolio', :to => 'welcome#portfolio'
-  get '/resume', :to => 'welcome#resume'
   get '/contact', :to => 'welcome#contact'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'welcome#index'
+  root 'welcome#portfolio'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
