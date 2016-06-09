@@ -2,142 +2,156 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+// Declared SASS variables for the page
 $color-white: white;
 $title-font-size: 3em;
+$total-height: 100%;
+$width-margin: 79.5%;
 
 // Removes the bounce effect when scrolling
 html {
+    height: $total-height;
     overflow: hidden;
-    height: 100%;
 }
 
 // Removes margin, padding from edges and
 // the bounce effect when scrolling
 body {
-  margin: 0;
-  padding: 0;
+    height: $total-height;
+    overflow: auto;
 
-  height: 100%;
-  overflow: auto;
+    margin: 0;
+    padding: 0;
 }
 
 // Left nav bar
 .left-nav-bar {
-  background-color: #09ca89;
+    height: $total-height;
+    width: 20%;
 
-  height:100%;
-  width: 20%;
+    float: left;
+    position: fixed;
 
-  float: left;
-  position: fixed;
+    background-color: #09ca89;
 
-  // border: 2px solid;
-  // border-color: black;
-
-  // Bar containing my name
-  .header {
     // border: 2px solid;
-    // border-color: green;
-
-    margin-left: -1.5em;
-
-    // The page content
-    p {
-      padding-left: 1em;
-
-      text-align: left;
-      font-size: $title-font-size;
-      line-height: 0em;
-
-      color: $color-white;
-    }
-  }
-
-  // The separator bar
-  .sep-line {
-    height: .5em;
-
-    // border-bottom: 2px solid;
     // border-color: black;
-  }
 
-  // List items
-  li {
-    list-style: none;
-  }
+    // Bar containing my name
+    .header {
+        margin-left: -1.5em;
 
-  // The link menu
-  .list-items {
-    font-size: 1.5em;
+        // border: 2px solid;
+        // border-color: green;
 
-    line-height: 2em;
+        // The page content
+        p {
+            padding-left: 1em;
 
-    padding-left: 0.35em;
-    padding-top: .5em;;
+            text-align: left;
+            font-size: $title-font-size;
+            line-height: 0em;
 
-    // border: 2px solid;
-    // border-color: red;
-  }
+            color: $color-white;
+        }
+    }
 
-  a:link {
-    text-decoration: none;
-    // color: black;
-    color: $color-white;
-  }
+    // The separator bar
+    .sep-line {
+        height: .5em;
 
-  a:visited {
-    text-decoration: none;
-    color: $color-white;
-  }
+        // border-bottom: 2px solid;
+        // border-color: black;
+    }
+
+    // List items
+    li {
+        list-style: none;
+    }
+
+    // The link menu
+    .list-items {
+        font-size: 1.5em;
+
+        line-height: 2em;
+
+        padding-left: 0.35em;
+        padding-top: .5em;;
+
+        // border: 2px solid;
+        // border-color: red;
+    }
+
+    a:link {
+        text-decoration: none;
+        // color: black;
+        color: $color-white;
+    }
+
+    a:visited {
+        text-decoration: none;
+        color: $color-white;
+    }
 }
 
 .title-and-content {
 
     // Page title
     .title-bar {
-      height: 15%;
-      width: 79%;
+        height: 15%;
+        width: $width-margin;
 
-      top: 0px;
-      right: 0px;
-      float: right;
-      position: fixed;
-      z-index: 10;
+        top: 0px;
+        right: 0px;
+        float: right;
+        position: fixed;
+        z-index: 10;
 
-      margin-left: 20.75%;
+        margin-left: 20.75%;
 
-      background-color: #09ca89;
+        background-color: #09ca89;
 
-      // border: 2px solid;
-      // border-color: orange;
+        // border: 2px solid;
+        // border-color: orange;
     }
 
     // CSS for page title
     .page-title {
-      text-align: center;
-      font-size: $title-font-size;
-      margin-top: .15em;
-      color: $color-white;
+        margin-top: .15em;
+        // margin-bottom: -1em;
+
+        text-align: center;
+        font-size: $title-font-size;
+        color: $color-white;
     }
 
     // Body content
     .body-content {
-      height: 100%;
-      width: 79%;
+        height: $total-height;
+        // width: 80%;
+        width: $width-margin;
 
-      right: 0px;
-      float: right;
-      overflow: auto;
-      z-index: -10;
+        right: 0px;
+        float: right;
+        overflow: auto;
+        z-index: -10;
 
-      margin-top: 7.5%;
+        margin-top: 7.5%;
 
-      border: 1px solid;
-      border-color: blue;
+        // border: 1px solid;
+        // border-color: blue;
 
-      // The body content text
-      .body-text {
-        padding-left: 3em;
-      }
+        // The body content text
+        .body-text {
+            // padding-left: 3em;
+
+            margin-top: 0em;
+
+            margin-right: 3em;
+            margin-left: 3em;
+
+            // border: 1px solid;
+            // border-color: green;
+        }
     }
 }
