@@ -2,10 +2,20 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-// Removes margin and padding from edges
+// Removes the bounce effect when scrolling
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+// Removes margin, padding from edges and
+// the bounce effect when scrolling
 body {
   margin: 0;
   padding: 0;
+
+  height: 100%;
+  overflow: auto;
 }
 
 // Left nav bar
@@ -57,6 +67,60 @@ body {
     border: 2px solid;
     border-color: red;
   }
+
+  a:link {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+// .title-content {
+//
+//   // Page title
+//   .title-bar {
+//     width: 79%;
+//
+//     float: right;
+//     position: fixed;
+//
+//     border: 2px solid;
+//     border-color: orange;
+//   }
+//
+//   // Body content
+//   .body-content {
+//     margin-top: 5em;
+//
+//     height: 100%;
+//     width: 79%;
+//
+//     float: right;
+//
+//     overflow: auto;
+//
+//     border: 2px solid;
+//     border-color: blue;
+//   }
+// }
+
+// Page title
+.title-bar {
+  height: 15%;
+  width: 79%;
+
+  top: 0px;
+  float: right;
+  position: absolute;
+
+  margin-left: 20.75%;
+
+  border: 2px solid;
+  border-color: orange;
 }
 
 // Body content
@@ -65,8 +129,9 @@ body {
   width: 79%;
 
   float: right;
-
   overflow: auto;
+
+  margin-top: 7.5%;
 
   border: 2px solid;
   border-color: blue;

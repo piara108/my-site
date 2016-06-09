@@ -1,9 +1,20 @@
 Rails.application.routes.draw do
+  get 'welcome/aboutme'
+
+  get 'welcome/blog'
+
+  get 'welcome/tutorials'
+
+  get 'welcome/aboutme'
+
   get 'welcome/portfolio'
 
-  get '/index', :to => 'welcome#index'
-  get '/portfolio', :to => 'welcome#portfolio'
-  get '/contact', :to => 'welcome#contact'
+  get '/portfolio', :to => 'welcome#portfolio', as: 'portfolio'
+  get '/index', :to => 'welcome#index', as: 'index'
+  get '/aboutme', :to => 'welcome#aboutme', as: 'aboutme'
+  get '/tutorials', :to => 'welcome#tutorials', as: 'tutorials'
+  get '/blog', :to => 'welcome#blog', as: 'blog'
+  get '/contact', :to => 'welcome#contact', as: 'contact'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
