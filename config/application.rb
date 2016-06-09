@@ -24,8 +24,8 @@ module MySite
     config.active_record.raise_in_transactional_callbacks = true
 
     config.assets.enabled = true
-    # rails_root = Rails.root
-    # config.assets.paths << "#{rails_root}/app/assets/fonts"
+    rails_root = Rails.root
+    config.assets.paths << "#{rails_root}/app/assets/stylesheets/fonts"
     # config.assets.path << Rails.root.join("app", "assets", "fonts")
   end
 end
