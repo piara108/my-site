@@ -18,6 +18,45 @@ body {
 
   border: 2px solid;
   border-color: black;
+
+  // Bar containing my name
+  .header {
+    border: 2px solid;
+    border-color: green;
+
+    p {
+      line-height: 0em;
+      font-size: 3em;
+      text-align: left;
+      padding-left: 1em;
+    }
+  }
+
+  // The separator bar
+  .sep-line {
+    height: .5em;
+
+    border-bottom: 2px solid;
+    border-color: black;
+  }
+
+  // List items
+  li {
+    list-style: none;
+  }
+
+  // The link menu
+  .list-items {
+    font-size: 1.5em;
+
+    line-height: 2em;
+
+    padding-left: 1em;
+    padding-top: .5em;;
+
+    border: 2px solid;
+    border-color: red;
+  }
 }
 
 // Body content
@@ -31,40 +70,4 @@ body {
 
   border: 2px solid;
   border-color: blue;
-}
-
-// List items
-li {
-  list-style: none;
-}
-
-.header {
-  p {
-    line-height: 0em;
-    font-size: 3em;
-    text-align: left;
-    padding-left: 1em;
-  }
-
-  border: 2px solid;
-  border-color: green;
-}
-
-.list-items {
-  font-size: 1.5em;
-
-  line-height: 2em;
-
-  padding-left: 1em;
-  padding-top: .5em;;
-
-  border: 2px solid;
-  border-color: red;
-}
-
-.sep-line {
-  height: .5em;
-
-  border-bottom: 2px solid;
-  border-color: black;
 }
