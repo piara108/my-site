@@ -171,11 +171,12 @@ body {
 
     // CSS for page title
     .page-title {
-        margin-top: .15em;
+        margin-top: .25em;
 
         text-align: center;
         font-family: $adam-font-family;
-        font-size: 3em;
+        // font-size: $title-font-size;
+        font-size: 4em;
         color: $color-white;
     }
 
