@@ -25,7 +25,7 @@ module MySite
 
     config.assets.enabled = true
     # rails_root = Rails.root
-    config.assets.paths << "#{rails_root}/app/assets/fonts"
-    config.assets.path << Rails.root.join("app", "assets", "fonts")
+    # config.assets.paths << "#{rails_root}/app/assets/fonts"
+    # config.assets.path << Rails.root.join("app", "assets", "fonts")
   end
 end
