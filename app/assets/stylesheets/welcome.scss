@@ -8,8 +8,8 @@
 $color-white: white;
 // $color-green: #09ca89;
 $color-teal: #07889b;
-// $color-powder: #66b9bf;
-// $color-powder: #00ff6d;
+// $color-seafoamish: #66b9bf;
+// $color-seafoamish: #00ff6d;
 $color-seafoamish: #75f0e7;
 
 // variables for sizes and dimensions
@@ -44,7 +44,7 @@ body {
 
     // background-color: $color-teal;
 
-    background: linear-gradient(to bottom, $color-teal, $color-powder);
+    background: linear-gradient(to bottom, $color-teal, $color-seafoamish);
 
     // border: 2px solid;
     // border-color: black;
@@ -132,7 +132,7 @@ body {
 
         background-color: $color-teal;
 
-        background: linear-gradient(to right, $color-teal, $color-powder);
+        background: linear-gradient(to right, $color-teal, $color-seafoamish);
 
         // border: $border-deets;
         // border-color: orange;
