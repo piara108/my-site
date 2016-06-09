@@ -41,6 +41,16 @@ body {
     padding: 0;
 }
 
+::selection {
+  background: $color-feather;
+  // background: $color-marine;
+  // background: linear-gradient(to right, $color-feather, $color-marine);
+}
+
+::-moz-selection {
+  background: #49A38E;
+}
+
 // Left nav bar
 .left-nav-bar {
     height: $total-height;
@@ -205,19 +215,18 @@ body {
             // border: $border-deets;
             // border-color: green;
 
-            p {
-                font-family: Lucida Grande;
-                line-height: 1.5em;
-                color: #333333;
-            }
-
             .actual-content {
                 .image-me {
                     float: left;
                     margin-top: .25em;
                     margin-right: 1em;
                     margin-left: -1.5em;
-                    // margin-left: -0.25em;
+                }
+
+                p {
+                    font-family: Lucida Grande;
+                    line-height: 1.5em;
+                    color: #444444;
                 }
             }
         }
