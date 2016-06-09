@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 $color-white: white;
+$title-font-size: 3em;
 
 // Removes the bounce effect when scrolling
 html {
@@ -40,11 +41,13 @@ body {
 
     margin-left: -1.5em;
 
+    // The page content
     p {
-      line-height: 0em;
-      font-size: 3em;
-      text-align: left;
       padding-left: 1em;
+
+      text-align: left;
+      font-size: $title-font-size;
+      line-height: 0em;
 
       color: $color-white;
     }
@@ -109,6 +112,14 @@ body {
       // border-color: orange;
     }
 
+    // CSS for page title
+    .page-title {
+      text-align: center;
+      font-size: $title-font-size;
+      margin-top: .15em;
+      color: $color-white;
+    }
+
     // Body content
     .body-content {
       height: 100%;
@@ -123,52 +134,10 @@ body {
 
       border: 1px solid;
       border-color: blue;
+
+      // The body content text
+      .body-text {
+        padding-left: 3em;
+      }
     }
-}
-
-// Page title
-// .title-bar {
-//   height: 15%;
-//   width: 79%;
-//
-//   top: 0px;
-//   right: 0px;
-//   float: right;
-//   position: fixed;
-//   z-index: 10;
-//
-//   margin-left: 20.75%;
-//
-//   background-color: #09ca89;
-//
-//   // border: 2px solid;
-//   // border-color: orange;
-// }
-
-// CSS for page title
-.page-title {
-  text-align: center;
-  font-size: 3em;
-  margin-top: .15em;
-  color: $color-white;
-}
-
-// Body content
-// .body-content {
-//   height: 100%;
-//   width: 79%;
-//
-//   right: 0px;
-//   float: right;
-//   overflow: auto;
-//   z-index: -10;
-//
-//   margin-top: 7.5%;
-//
-//   border: 1px solid;
-//   border-color: blue;
-// }
-
-.body-text {
-  padding-left: 3em;
 }
