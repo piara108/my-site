@@ -3,7 +3,7 @@ $(document).ready(function() {
   console.log("You are in the console right now!!");
 
   $('ul .nav-items').on('mouseenter', function() {
-    $(this).find('li').css('font-size', '2em');
+    $(this).find('li').css('font-size', '2.5em');
   });
 
   $('ul .nav-items').on('mouseleave', function() {
