@@ -20,7 +20,7 @@ $border-deets: 2px solid;
 // font face mixin for Adam
 @font-face {
   font-family: "Adam";
-  src: url('fonts/Adam.otf') format('opentype');
+  src: url('fonts/Adam.otf');
   font-weight: normal;
   font-style: normal;
 }
