@@ -259,6 +259,14 @@ body {
                     line-height: 1.5em;
                     color: #444444;
                 }
+
+                .p-images {
+                    height: 3em;
+                    width: 3em;
+                    margin-left: 3em;
+                    border: $border-deets;
+                    border-color: black;
+                }
             }
         }
     }
