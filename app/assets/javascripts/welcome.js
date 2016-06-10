@@ -10,12 +10,12 @@ $(document).ready(function() {
   //   $(this).find('li').css('font-size', '1.5em');
   // });
 
-  $('.list-items').on('mouseenter', function() {
+  $('.links').on('mouseenter', function() {
     $(this).find('li').css('padding-left', '0em');
     $(this).find('li').css('font-size', '2em');
   });
 
-  $('.list-items').on('mouseleave', function() {
+  $('.links').on('mouseleave', function() {
     $(this).find('li').css('padding-left', '0.35em');
     $(this).find('li').css('font-size', '1.5em');
   });
