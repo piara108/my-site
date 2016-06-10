@@ -9,7 +9,7 @@ $(document).on("page:change", function() {
   console.log("The page has loaded");
 
   $(".links").on("mouseenter", function() {
-    $(this).find("li").css("padding-left", "1em");
+    $(this).find("li").css("padding-left", ".80em");
   });
 
   $(".links").on("mouseleave", function() {
