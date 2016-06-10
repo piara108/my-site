@@ -11,6 +11,7 @@ $(document).ready(function() {
   // });
 
   $('.links').on('mouseenter', function() {
+    console.log('You are in links');
     $(this).find('li').css('padding-left', '0em');
     $(this).find('li').css('font-size', '2em');
   });
