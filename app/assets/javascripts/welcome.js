@@ -3,7 +3,8 @@
 //
 // });
 
-$(document).on("page:load", function() {
+$(document).on("page:change", function() {
+  e.preventDefault();
   $(document).trigger("ready");
 
   console.log("The page has loaded");
