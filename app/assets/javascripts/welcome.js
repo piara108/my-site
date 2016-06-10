@@ -11,13 +11,10 @@ $(document).ready(function() {
   // });
 
   $('.links').on('mouseenter', function() {
-    console.log('You are in links');
-    $(this).find('li').css('padding-left', '0em');
-    $(this).find('li').css('font-size', '2em');
+    $(this).css('margin-left', '2em');
   });
 
   $('.links').on('mouseleave', function() {
-    $(this).find('li').css('padding-left', '0.35em');
-    $(this).find('li').css('font-size', '1.5em');
+    $(this).css('margin-left', '-0.05em');
   });
 });

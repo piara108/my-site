@@ -77,8 +77,8 @@ body {
 
         padding-top: 1em;
 
-        border: 2px solid;
-        border-color: green;
+        // border: 2px solid;
+        // border-color: green;
 
         // The page content
         p {
@@ -102,7 +102,7 @@ body {
 
         margin-top: 1em;
         margin-left: 14%;
-        margin-bottom: 1em;
+        margin-bottom: 2em;
 
         border-bottom: $border-deets;
         border-color: white;
@@ -111,25 +111,50 @@ body {
         // border-color: black;
     }
 
-    // List items
-    li {
-        list-style: none;
-        // margin-left: 1em;
-    }
-
     // The link menu
     .list-items {
         font-size: 1.5em;
         line-height: 2em;
 
+        margin-left: -.20em;
+        // margin-bottom: -.5em;
         // padding-left: 0.35em;
-        margin-left: -.25em;
-        padding-top: .5em;
+        // padding-top: .5em;
 
         font-family: $adam-font-family;
 
-        border: $border-deets;
-        border-color: red;
+        // border: $border-deets;
+        // border-color: red;
+
+        // List items
+        // .links {
+        //     width: 100%;
+        //
+        //     list-style: none;
+        //     // margin-left: 1em;
+        //
+        //     border: $border-deets;
+        //     border-color: blue;
+        // }
+
+        // .nav-items {
+        //   border: $border-deets;
+        //   border-color: orange;
+        // }
+    }
+
+    // List items
+    li {
+        width: 50%;
+
+        list-style: none;
+        padding-left: .5em;
+
+        margin-left: -0.05em;
+        // margin-left: 2em;
+
+        // border: $border-deets;
+        // border-color: blue;
     }
 
     a:link {
