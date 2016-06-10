@@ -8,13 +8,13 @@ $(document).on("page:change", function() {
 
   console.log("The page has loaded");
 
-  // $(".link-set").on("mouseenter", function() {
-  //   $(this).find("li").css("margin-left", "1em");
-  // });
-  //
-  // $(".link-set").on("mouseleave", function() {
-  //   $(this).find("li").css("margin-left", "0em");
-  // });
+  $(".link-set").on("mouseenter", function() {
+    $(this).find("li").css("margin-left", "1em");
+  });
+
+  $(".link-set").on("mouseleave", function() {
+    $(this).find("li").css("margin-left", "0em");
+  });
 });
 
 
