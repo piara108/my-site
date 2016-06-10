@@ -1,15 +1,6 @@
 // JS for hovering over the link
 $(document).ready(function() {
-  // console.log("You are in the console right now!!");
-  alert("JavaScript is firing");
-
-  // $('.nav-items').mouseenter(function() {
-  //   $(this).find('li').css('font-size', '3em');
-  // });
-  //
-  // $('.nav-items').mouseleave(function() {
-  //   $(this).find('li').css('font-size', '1.5em');
-  // });
+  console.log("You are in the console right now!!");
 
   $(".links").on("mouseenter", function() {
     $(this).css("margin-left", "2em");
@@ -19,3 +10,11 @@ $(document).ready(function() {
     $(this).css("margin-left", "-0.05em");
   });
 });
+
+// $(".nav-items").mouseenter(function() {
+//   $(this).find("li").css("margin-left", "2em");
+// });
+//
+// $(".nav-items").mouseleave(function() {
+//   $(this).find("li").css("margin-left", "-0.05em");
+// });
