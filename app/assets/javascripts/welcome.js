@@ -9,17 +9,17 @@ $(document).on("page:change", function() {
 
   console.log("The page has loaded");
 
-  // $(".links").on("mouseenter", function() {
-  //   $(this).find("li").css("padding-left", "2em");
-  // });
-  //
-  // $(".links").on("mouseleave", function() {
-  //   $(this).find("li").css("padding-left", "-0.2em");
-  // });
-
-  $(".links").hover(function() {
-    $(this).find("li").css("padding-left", "2em");
+  $(".links").on("mouseenter", function() {
+    $(this).find("li").css("padding-left", "1em");
   });
+
+  $(".links").on("mouseleave", function() {
+    $(this).find("li").css("padding-left", "-0.2em");
+  });
+
+  // $(".links").hover(function() {
+  //   $(this).find("li").css("padding-left", "1em");
+  // });
 });
 
 
