@@ -8,12 +8,12 @@ $(document).on("page:change", function() {
 
   console.log("The page has loaded");
 
-  $(".link-set").on("mouseenter", function() {
-    $(this).find("li").css("padding-left", "1em");
+  $("li").on("mouseenter", function() {
+    $(this).css("padding-left", "1em");
   });
 
-  $(".link-set").on("mouseleave", function() {
-    $(this).find("li").css("padding-left", "0em");
+  $("li").on("mouseleave", function() {
+    $(this).css("padding-left", "0em");
   });
 });
 
