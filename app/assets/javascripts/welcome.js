@@ -9,13 +9,13 @@ $(document).on("page:change", function() {
   console.log("The page has loaded");
 
   $(".links").each(function() {
-    $(".link-set").on("mouseenter", function() {
-      $(this).find(".links").css("padding-left", "1em");
+    $(this).on("mouseenter", function() {
+      $(this).css("padding-left", "1em");
     });
 
-    $(".link-set").on("mouseleave", function() {
-      $(this).find(".links").css("padding-left", "0em");
-    });
+    $(this).on("mouseleave", function() {
+      $(this).css("padding-left", "0em");
+    });ra
   })
 });
 
