@@ -8,15 +8,28 @@ $(document).on("page:change", function() {
 
   console.log("The page has loaded");
 
-  $(".links").each(function() {
-    $(this).on("mouseenter", function() {
+  $(".link-set").on("mouseenter", function() {
+    $(this).each(function() {
       $(this).css("padding-left", "1em");
     });
+  });
 
-    $(this).on("mouseleave", function() {
+  $(".link-set").on("mouseleave", function() {
+    $(this).each(function() {
       $(this).css("padding-left", "0em");
-    });ra
-  })
+    });
+  });
+
+
+  // $(".links").each(function() {
+  //   $(this).on("mouseenter", function() {
+  //     $(this).css("padding-left", "1em");
+  //   });
+  //
+  //   $(this).on("mouseleave", function() {
+  //     $(this).css("padding-left", "0em");
+  //   });ra
+  // })
 });
 
 
