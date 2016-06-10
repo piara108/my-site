@@ -6,12 +6,14 @@
 $(document).on("page:load", function() {
   $(document).trigger("ready");
 
+  console.log("The page has loaded");
+
   $(".links").on("mouseenter", function() {
-    $(this).find("li").css("margin-left", "2em");
+    $(this).find("li").css("padding-left", "2em");
   });
 
   $(".links").on("mouseleave", function() {
-    $(this).find("li").css("margin-left", "-0.2em");
+    $(this).find("li").css("padding-left", "-0.2em");
   });
 });
 
