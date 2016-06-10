@@ -4,7 +4,6 @@
 // });
 
 $(document).on("page:change", function() {
-  e.preventDefault();
   $(document).trigger("ready");
 
   console.log("The page has loaded");
@@ -16,10 +15,6 @@ $(document).on("page:change", function() {
   $(".links").on("mouseleave", function() {
     $(this).find("li").css("padding-left", "-0.2em");
   });
-
-  // $(".links").hover(function() {
-  //   $(this).find("li").css("padding-left", "1em");
-  // });
 });
 
 
