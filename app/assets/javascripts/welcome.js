@@ -8,11 +8,11 @@ $(document).on("page:change", function() {
 
   console.log("The page has loaded");
 
-  $(".links").on("mouseenter", function() {
-    $(this).find("li").css("padding-left", ".80em");
+  $(".link-set").on("mouseenter", function() {
+    $(this).find("li").css("padding-left", "1em");
   });
 
-  $(".links").on("mouseleave", function() {
+  $(".link-set").on("mouseleave", function() {
     $(this).find("li").css("padding-left", "-0.2em");
   });
 });
@@ -32,8 +32,8 @@ $(document).on("page:change", function() {
 //   });
 // };
 //
-$(document).ready(ready);
-$(document).on('page:load', ready);
+// $(document).ready(ready);
+// $(document).on('page:load', ready);
 //
 // $(".nav-items").mouseenter(function() {
 //   $(this).find("li").css("margin-left", "2em");
