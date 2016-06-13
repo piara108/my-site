@@ -219,6 +219,12 @@ body {
         // font-size: $title-font-size;
         font-size: 4em;
         color: $color-white;
+
+        .under-overlap {
+          height: 10px;
+          z-index: 100;
+          background-color: white;
+        }
     }
 
     // Body content
