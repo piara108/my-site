@@ -1,0 +1,154 @@
+@import "variables";
+
+.title-and-content {
+
+    // Page title
+    .title-bar {
+        height: 15%;
+        width: $width-margin;
+
+        top: 0px;
+        right: 0px;
+        float: right;
+        position: fixed;
+        z-index: 10;
+
+        margin-left: 20.75%;
+        margin-bottom: 1em;
+
+        background-color: $color-feather;
+
+        background: linear-gradient(to right, $color-feather, $color-marine);
+
+        // border: $border-deets;
+        // border-color: orange;
+    }
+
+    // CSS for page title
+    .page-title {
+        margin-top: .25em;
+
+        text-align: center;
+        font-family: $title-font-family;
+        // font-size: $title-font-size;
+        font-size: 4em;
+        color: $color-white;
+
+        .under-overlap {
+          height: 10px;
+          z-index: 100;
+          background-color: white;
+        }
+    }
+
+    // Body content
+    .body-content {
+        height: $total-height;
+        width: $width-margin;
+
+        right: 0px;
+        float: right;
+        overflow: auto;
+        z-index: -10;
+
+        margin-top: 7.5%;
+
+        // border: $border-deets;
+        // border-color: blue;
+
+        // The body content text
+        .body-text {
+            margin-top: 0em;
+
+            margin-right: 3em;
+            margin-left: 3em;
+
+            // border: $border-deets;
+            // border-color: green;
+
+            .actual-content {
+                .image-me {
+                    float: left;
+                    margin-top: .25em;
+                    margin-right: 1em;
+                    margin-left: -1.5em;
+                }
+
+                p {
+                    font-family: Lucida Grande;
+                    line-height: 1.5em;
+                    color: #444444;
+                }
+
+
+            }
+        }
+    }
+}
+
+.p-images {
+    height: 3em;
+    width: 3em;
+    margin-left: 3em;
+    border-color: $solid-border black;
+}
+
+#body-text {
+  padding-top: 3em;
+  padding-left: 3em;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+
+  // border: $solid-border green;
+
+  .por-img {
+    height: 10em;
+    width: 10em;
+  }
+
+  a {
+    display: inline-block;
+
+    margin-right: .5em;
+    margin-bottom: .5em;
+
+    padding-left: -2em;
+    padding-right: -2em;
+
+    font-size: 16px;
+
+    // border: $solid-border blue;
+
+    figcaption {
+      text-align: center;
+
+      width: 10em;
+      margin-left: 3.42em;
+      // float: center;
+
+      // border: $solid-border red;
+    }
+  }
+
+  a:nth-of-type(2n) {
+    margin-right: 0;
+  }
+
+  @media screen and (min-width: 50em) {
+    a {
+      width: calc(33% - 6px);
+    }
+
+    a:nth-of-type(2n) {
+      margin-right: 8px;
+    }
+
+    a:nth-of-type(4n) {
+      // margin-right: 8px;
+      margin-right: 0;
+    }
+  }
+}

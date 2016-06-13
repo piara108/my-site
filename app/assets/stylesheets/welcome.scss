@@ -4,18 +4,10 @@
 
 // Declared SASS variables for the page
 
-// variables for color
-$color-white: #F8F8F8;
-// $color-white: white;
-$color-feather: #77C9D4;
-$color-marine: #57BC90;
+@import "variables";
 
-// variables for sizes and dimensions
-$title-font-size: 3em;
-$adam-font-family: Adam;
-$total-height: 100%;
-$width-margin: 79.5%;
-$border-deets: 2px solid;
+@import "portfolio";
+
 
 // font face mixin for Adam
 @font-face {
@@ -82,7 +74,7 @@ body {
 
         // The page content
         p {
-            font-family: $adam-font-family;
+            font-family: $title-font-family;
             text-align: left;
             font-size: $title-font-size;
             line-height: 0em;
@@ -121,7 +113,7 @@ body {
         // padding-left: 0.35em;
         // padding-top: .5em;
 
-        font-family: $adam-font-family;
+        font-family: $title-font-family;
 
         // border: $border-deets;
         // border-color: red;
@@ -187,93 +179,5 @@ body {
 }
 
 .title-and-content {
-
-    // Page title
-    .title-bar {
-        height: 15%;
-        width: $width-margin;
-
-        top: 0px;
-        right: 0px;
-        float: right;
-        position: fixed;
-        z-index: 10;
-
-        margin-left: 20.75%;
-        margin-bottom: 1em;
-
-        background-color: $color-feather;
-
-        background: linear-gradient(to right, $color-feather, $color-marine);
-
-        // border: $border-deets;
-        // border-color: orange;
-    }
-
-    // CSS for page title
-    .page-title {
-        margin-top: .25em;
-
-        text-align: center;
-        font-family: $adam-font-family;
-        // font-size: $title-font-size;
-        font-size: 4em;
-        color: $color-white;
-
-        .under-overlap {
-          height: 10px;
-          z-index: 100;
-          background-color: white;
-        }
-    }
-
-    // Body content
-    .body-content {
-        height: $total-height;
-        width: $width-margin;
-
-        right: 0px;
-        float: right;
-        overflow: auto;
-        z-index: -10;
-
-        margin-top: 7.5%;
-
-        // border: $border-deets;
-        // border-color: blue;
-
-        // The body content text
-        .body-text {
-            margin-top: 0em;
-
-            margin-right: 3em;
-            margin-left: 3em;
-
-            // border: $border-deets;
-            // border-color: green;
-
-            .actual-content {
-                .image-me {
-                    float: left;
-                    margin-top: .25em;
-                    margin-right: 1em;
-                    margin-left: -1.5em;
-                }
-
-                p {
-                    font-family: Lucida Grande;
-                    line-height: 1.5em;
-                    color: #444444;
-                }
-
-                .p-images {
-                    height: 3em;
-                    width: 3em;
-                    margin-left: 3em;
-                    border: $border-deets;
-                    border-color: black;
-                }
-            }
-        }
-    }
+  
 }
