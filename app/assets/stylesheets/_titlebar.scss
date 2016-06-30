@@ -1,0 +1,81 @@
+// =====================Title Bar=====================
+
+@import 'variables';
+
+.title-and-content {
+  .title-bar {
+    height: 15%;
+    width: $width-margin;
+
+    top: 0px;
+    right: 0px;
+    float: right;
+    position: fixed;
+    z-index: 10;
+
+    margin-left: 20.75%;
+    margin-bottom: 1em;
+
+    background-color: $color-feather;
+
+    background: linear-gradient(to right, $color-feather, $color-marine);
+
+    // border: $border-deets orange;
+  }
+
+  // CSS for page title
+  .page-title {
+    margin-top: .25em;
+
+    text-align: center;
+    font-family: $title-font-family;
+    font-size: 4em;
+    color: $color-white;
+
+    .under-overlap {
+      height: 10px;
+      z-index: 100;
+      background-color: white;
+    }
+  }
+
+  // Body content
+  #body-content {
+    height: $total-height;
+    width: $width-margin;
+
+    right: 0px;
+    float: right;
+    overflow: auto;
+    z-index: -10;
+
+    margin-top: 7.5%;
+
+    // border: $border-deets blue;
+
+    // The body content text
+    #body-text {
+      margin-top: 0em;
+
+      margin-right: 3em;
+      margin-left: 3em;
+
+      // border: $border-deets green;
+
+      .actual-content {
+        .image-me {
+          float: left;
+          margin-top: .25em;
+          margin-right: 1em;
+          margin-left: -1.5em;
+        }
+
+        p {
+          font-family: Lucida Grande;
+          line-height: 1.5em;
+          color: #444444;
+        }
+      }
+    }
+  }
+}

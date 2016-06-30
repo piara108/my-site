@@ -1,0 +1,43 @@
+// =======================About Me Page=======================
+
+@import 'variables';
+
+.title-and-content {
+  float: right;
+  width: $width-margin;
+
+  // border: $border-deets green;
+
+  #about-content {
+    margin-top: 2.25em;
+
+    // border: $border-deets orange;
+
+    #body-text {
+      float: left;
+      margin-top: 1.75em;
+
+      // border: $border-deets blue;
+
+      #image-me {
+        float: left;
+        margin-left: -1.75em;
+        margin-right: .75em;
+
+        // border: $border-deets orange;
+      }
+
+      #text-box {
+        width: 37.25em;
+        float: right;
+        // border: $border-deets red;
+
+        p {
+          margin-top: -.25em;
+          color: $font-color;
+          font-size: 1.35em;
+        }
+      }
+    }
+  }
+}

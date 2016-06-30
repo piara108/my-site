@@ -1,0 +1,23 @@
+// =======================Tutorials Page=======================
+
+@import 'variables';
+
+.title-and-content {
+  float: right;
+  width: $width-margin;
+
+  // border: $border-deets green;
+
+  #tutorial-content {
+    #body-text {
+      float: left;
+      margin-top: 3em;
+
+      p {
+        color: $font-color;
+        font-size: 1.5em;
+        // border: $border-deets blue;
+      }
+    }  
+  }
+}

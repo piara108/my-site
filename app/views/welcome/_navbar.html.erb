@@ -1,0 +1,43 @@
+<div class="whole-page">
+  <nav class="left-nav-bar">
+    <div class="header">
+      <p>PIARA  </p>
+      <p>SANDHU</p>
+    </div>
+
+    <div class="sep-line"></div>
+
+    <div class="list-items">
+      <ul class="link-set">
+        <li class="links"><%= link_to "Portfolio", portfolio_url %></li>
+        <li class="links"><%= link_to "Tutorials", tutorials_url %></li>
+        <li class="links"><%= link_to "Blog", blog_url %></li>
+        <li class="links"><%= link_to "About Me", aboutme_url %></li>
+      </ul>
+    </div>
+
+    <div class="sep-line"></div>
+
+    <div class="image-bar">
+      <%= link_to "https://github.com/piara108", :target => "_blank" do %>
+        <%= image_tag("github-icon.png", :alt => "github", :class => "image") %>
+      <% end %>
+
+      <%= link_to "https://www.linkedin.com/in/piarasandhu", :target => "_blank" do %>
+        <%= image_tag("linkedin-icon.png", :alt => "linkedin", :class => "image") %>
+      <% end %>
+
+      <%= link_to "mailto:piarasandhu108@gmail.com", :target => "_blank" do %>
+        <%= image_tag("email-icon.png", :alt => "email", :class => "image") %>
+      <% end %>
+
+      <%= link_to "https://twitter.com/sikh_n_destroy", :target => "_blank" do %>
+        <%= image_tag("twitter-icon.png", :alt => "twitter", :class => "image") %>
+      <% end %>
+
+      <%= link_to "http://stackexchange.com/users/3317568/piara-sandhu", :target => "_blank" do %>
+        <%= image_tag("stackoverflow-icon.png", :alt => "stack", :class => "image") %>
+      <% end %>
+    </div>
+  </nav>
+</div>
