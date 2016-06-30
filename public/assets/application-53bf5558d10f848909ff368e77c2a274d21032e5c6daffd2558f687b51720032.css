@@ -1,0 +1,537 @@
+/* line 5, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_aboutme.scss */
+.title-and-content {
+  float: right;
+  width: 79.5%;
+}
+/* line 11, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_aboutme.scss */
+.title-and-content #about-content {
+  margin-top: 5.8em;
+}
+/* line 16, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_aboutme.scss */
+.title-and-content #about-content #body-text {
+  float: left;
+  margin-top: 1.5em;
+}
+/* line 22, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_aboutme.scss */
+.title-and-content #about-content #body-text #image-me {
+  float: left;
+  margin-left: 1.5em;
+  margin-right: .75em;
+}
+/* line 30, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_aboutme.scss */
+.title-and-content #about-content #body-text #text-box {
+  width: 37.25em;
+  float: right;
+}
+/* line 35, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_aboutme.scss */
+.title-and-content #about-content #body-text #text-box p {
+  margin-top: -.25em;
+  color: #444444;
+  font-size: 1.35em;
+}
+/* line 5, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_blog.scss */
+.title-and-content {
+  float: right;
+  width: 79.5%;
+}
+/* line 11, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_blog.scss */
+.title-and-content #blog-content {
+  margin-top: 5.80em;
+}
+/* line 14, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_blog.scss */
+.title-and-content #blog-content #body-text {
+  float: left;
+}
+/* line 17, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_blog.scss */
+.title-and-content #blog-content #body-text p {
+  color: #444444;
+  font-size: 1.5em;
+  margin-left: 1.75em;
+}
+@font-face {
+  font-family: "Adam";
+  src: url(/assets/fonts/Adam-5d9f02ccd3cc729fbee7eae985b1b928018474c5e2d955ed7903aeb6bc824002.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 14, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 21, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+body {
+  height: 100%;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 29, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+::selection {
+  background: #77C9D4;
+}
+
+/* line 35, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+::-moz-selection {
+  background: #49A38E;
+}
+
+/* line 40, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+.left-nav-bar {
+  height: 100%;
+  width: 20%;
+  float: left;
+  position: fixed;
+  padding-left: .25em;
+  background: linear-gradient(to bottom, #77C9D4, #57BC90);
+}
+/* line 54, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+.left-nav-bar .header {
+  margin-top: 0px;
+  margin-left: -.25em;
+  padding-top: 1em;
+}
+/* line 63, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+.left-nav-bar .header p {
+  font-family: "Adam";
+  text-align: left;
+  font-size: 3em;
+  line-height: 0em;
+  padding-left: 0.75em;
+  color: #F8F8F8;
+}
+/* line 76, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+.left-nav-bar .sep-line {
+  height: 0em;
+  width: 70%;
+  margin-top: 1em;
+  margin-left: 14%;
+  margin-bottom: 2em;
+  border-bottom: 2px solid;
+  border-color: white;
+}
+/* line 91, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+.left-nav-bar .list-items {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-left: -.20em;
+  font-family: "Adam";
+}
+/* line 103, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+.left-nav-bar li {
+  width: 50%;
+  list-style: none;
+}
+/* line 110, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+.left-nav-bar a:link {
+  text-decoration: none;
+  color: #F8F8F8;
+}
+/* line 115, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+.left-nav-bar a:visited {
+  text-decoration: none;
+  color: #F8F8F8;
+}
+/* line 121, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+.left-nav-bar .image-bar {
+  width: 100%;
+  height: 2em;
+  margin-top: 3em;
+  margin-left: 2em;
+  padding: .50em;
+}
+/* line 132, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+.left-nav-bar .image {
+  margin-right: .5em;
+}
+/* line 7, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_portfolio.scss */
+.title-and-content #portfolio-content {
+  margin-top: 5.8em;
+}
+/* line 10, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_portfolio.scss */
+.title-and-content #portfolio-content #body-text {
+  padding-top: 3em;
+  padding-left: 3em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/* line 21, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_portfolio.scss */
+.title-and-content #portfolio-content #body-text .por-img {
+  height: 10em;
+  width: 10em;
+}
+/* line 26, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_portfolio.scss */
+.title-and-content #portfolio-content #body-text a {
+  display: inline-block;
+  margin-right: .5em;
+  margin-bottom: .5em;
+  padding-left: -2em;
+  padding-right: -2em;
+  font-size: 16px;
+}
+/* line 40, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_portfolio.scss */
+.title-and-content #portfolio-content #body-text a:nth-of-type(2n) {
+  margin-right: 0;
+}
+@media screen and (min-width: 50em) {
+  /* line 45, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_portfolio.scss */
+  .title-and-content #portfolio-content #body-text a {
+    width: calc(33% - 6px);
+  }
+  /* line 49, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_portfolio.scss */
+  .title-and-content #portfolio-content #body-text a:nth-of-type(2n) {
+    margin-right: 8px;
+  }
+  /* line 53, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_portfolio.scss */
+  .title-and-content #portfolio-content #body-text a:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
+/* line 6, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_titlebar.scss */
+.title-and-content .title-bar {
+  height: 15%;
+  width: 79.5%;
+  top: 0px;
+  right: 0px;
+  float: right;
+  position: fixed;
+  z-index: 10;
+  margin-left: 20.75%;
+  margin-bottom: 1em;
+  background-color: #77C9D4;
+  background: linear-gradient(to right, #77C9D4, #57BC90);
+}
+/* line 27, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_titlebar.scss */
+.title-and-content .page-title {
+  margin-top: .25em;
+  text-align: center;
+  font-family: "Adam";
+  font-size: 4em;
+  color: #F8F8F8;
+}
+/* line 35, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_titlebar.scss */
+.title-and-content .page-title .under-overlap {
+  height: 10px;
+  z-index: 100;
+  background-color: white;
+}
+/* line 43, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_titlebar.scss */
+.title-and-content #body-content {
+  height: 100%;
+  width: 79.5%;
+  right: 0px;
+  float: right;
+  overflow: auto;
+  z-index: -10;
+  margin-top: 7.5%;
+}
+/* line 57, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_titlebar.scss */
+.title-and-content #body-content #body-text {
+  margin-top: 0em;
+  margin-right: 3em;
+  margin-left: 3em;
+}
+/* line 66, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_titlebar.scss */
+.title-and-content #body-content #body-text .actual-content .image-me {
+  float: left;
+  margin-top: .25em;
+  margin-right: 1em;
+  margin-left: -1.5em;
+}
+/* line 73, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_titlebar.scss */
+.title-and-content #body-content #body-text .actual-content p {
+  font-family: Lucida Grande;
+  line-height: 1.5em;
+  color: #444444;
+}
+/* line 5, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_tutorials.scss */
+.title-and-content {
+  float: right;
+  width: 79.5%;
+}
+/* line 11, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_tutorials.scss */
+.title-and-content #tutorial-content {
+  margin-top: 5.80em;
+}
+/* line 14, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_tutorials.scss */
+.title-and-content #tutorial-content #body-text {
+  float: left;
+}
+/* line 17, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_tutorials.scss */
+.title-and-content #tutorial-content #body-text p {
+  color: #444444;
+  font-size: 1.5em;
+  margin-left: 1.75em;
+}
+/* line 6, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_titlebar.scss */
+.title-and-content .title-bar {
+  height: 15%;
+  width: 79.5%;
+  top: 0px;
+  right: 0px;
+  float: right;
+  position: fixed;
+  z-index: 10;
+  margin-left: 20.75%;
+  margin-bottom: 1em;
+  background-color: #77C9D4;
+  background: linear-gradient(to right, #77C9D4, #57BC90);
+}
+/* line 27, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_titlebar.scss */
+.title-and-content .page-title {
+  margin-top: .25em;
+  text-align: center;
+  font-family: "Adam";
+  font-size: 4em;
+  color: #F8F8F8;
+}
+/* line 35, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_titlebar.scss */
+.title-and-content .page-title .under-overlap {
+  height: 10px;
+  z-index: 100;
+  background-color: white;
+}
+/* line 43, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_titlebar.scss */
+.title-and-content #body-content {
+  height: 100%;
+  width: 79.5%;
+  right: 0px;
+  float: right;
+  overflow: auto;
+  z-index: -10;
+  margin-top: 7.5%;
+}
+/* line 57, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_titlebar.scss */
+.title-and-content #body-content #body-text {
+  margin-top: 0em;
+  margin-right: 3em;
+  margin-left: 3em;
+}
+/* line 66, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_titlebar.scss */
+.title-and-content #body-content #body-text .actual-content .image-me {
+  float: left;
+  margin-top: .25em;
+  margin-right: 1em;
+  margin-left: -1.5em;
+}
+/* line 73, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_titlebar.scss */
+.title-and-content #body-content #body-text .actual-content p {
+  font-family: Lucida Grande;
+  line-height: 1.5em;
+  color: #444444;
+}
+
+@font-face {
+  font-family: "Adam";
+  src: url(/assets/fonts/Adam-5d9f02ccd3cc729fbee7eae985b1b928018474c5e2d955ed7903aeb6bc824002.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 14, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 21, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+body {
+  height: 100%;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 29, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+::selection {
+  background: #77C9D4;
+}
+
+/* line 35, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+::-moz-selection {
+  background: #49A38E;
+}
+
+/* line 40, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+.left-nav-bar {
+  height: 100%;
+  width: 20%;
+  float: left;
+  position: fixed;
+  padding-left: .25em;
+  background: linear-gradient(to bottom, #77C9D4, #57BC90);
+}
+/* line 54, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+.left-nav-bar .header {
+  margin-top: 0px;
+  margin-left: -.25em;
+  padding-top: 1em;
+}
+/* line 63, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+.left-nav-bar .header p {
+  font-family: "Adam";
+  text-align: left;
+  font-size: 3em;
+  line-height: 0em;
+  padding-left: 0.75em;
+  color: #F8F8F8;
+}
+/* line 76, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+.left-nav-bar .sep-line {
+  height: 0em;
+  width: 70%;
+  margin-top: 1em;
+  margin-left: 14%;
+  margin-bottom: 2em;
+  border-bottom: 2px solid;
+  border-color: white;
+}
+/* line 91, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+.left-nav-bar .list-items {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-left: -.20em;
+  font-family: "Adam";
+}
+/* line 103, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+.left-nav-bar li {
+  width: 50%;
+  list-style: none;
+}
+/* line 110, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+.left-nav-bar a:link {
+  text-decoration: none;
+  color: #F8F8F8;
+}
+/* line 115, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+.left-nav-bar a:visited {
+  text-decoration: none;
+  color: #F8F8F8;
+}
+/* line 121, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+.left-nav-bar .image-bar {
+  width: 100%;
+  height: 2em;
+  margin-top: 3em;
+  margin-left: 2em;
+  padding: .50em;
+}
+/* line 132, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_page.scss */
+.left-nav-bar .image {
+  margin-right: .5em;
+}
+
+/* line 7, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_portfolio.scss */
+.title-and-content #portfolio-content {
+  margin-top: 5.8em;
+}
+/* line 10, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_portfolio.scss */
+.title-and-content #portfolio-content #body-text {
+  padding-top: 3em;
+  padding-left: 3em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/* line 21, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_portfolio.scss */
+.title-and-content #portfolio-content #body-text .por-img {
+  height: 10em;
+  width: 10em;
+}
+/* line 26, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_portfolio.scss */
+.title-and-content #portfolio-content #body-text a {
+  display: inline-block;
+  margin-right: .5em;
+  margin-bottom: .5em;
+  padding-left: -2em;
+  padding-right: -2em;
+  font-size: 16px;
+}
+/* line 40, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_portfolio.scss */
+.title-and-content #portfolio-content #body-text a:nth-of-type(2n) {
+  margin-right: 0;
+}
+@media screen and (min-width: 50em) {
+  /* line 45, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_portfolio.scss */
+  .title-and-content #portfolio-content #body-text a {
+    width: calc(33% - 6px);
+  }
+  /* line 49, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_portfolio.scss */
+  .title-and-content #portfolio-content #body-text a:nth-of-type(2n) {
+    margin-right: 8px;
+  }
+  /* line 53, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_portfolio.scss */
+  .title-and-content #portfolio-content #body-text a:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
+
+/* line 5, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_tutorials.scss */
+.title-and-content {
+  float: right;
+  width: 79.5%;
+}
+/* line 11, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_tutorials.scss */
+.title-and-content #tutorial-content {
+  margin-top: 5.80em;
+}
+/* line 14, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_tutorials.scss */
+.title-and-content #tutorial-content #body-text {
+  float: left;
+}
+/* line 17, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_tutorials.scss */
+.title-and-content #tutorial-content #body-text p {
+  color: #444444;
+  font-size: 1.5em;
+  margin-left: 1.75em;
+}
+
+/* line 5, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_aboutme.scss */
+.title-and-content {
+  float: right;
+  width: 79.5%;
+}
+/* line 11, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_aboutme.scss */
+.title-and-content #about-content {
+  margin-top: 5.8em;
+}
+/* line 16, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_aboutme.scss */
+.title-and-content #about-content #body-text {
+  float: left;
+  margin-top: 1.5em;
+}
+/* line 22, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_aboutme.scss */
+.title-and-content #about-content #body-text #image-me {
+  float: left;
+  margin-left: 1.5em;
+  margin-right: .75em;
+}
+/* line 30, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_aboutme.scss */
+.title-and-content #about-content #body-text #text-box {
+  width: 37.25em;
+  float: right;
+}
+/* line 35, /Users/Piara/Documents/Programming/GitHub Stuff/my-site/app/assets/stylesheets/_aboutme.scss */
+.title-and-content #about-content #body-text #text-box p {
+  margin-top: -.25em;
+  color: #444444;
+  font-size: 1.35em;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+

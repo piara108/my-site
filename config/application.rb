@@ -32,6 +32,6 @@ module MySite
     config.assets.paths << "#{rails_root}/app/assets/stylesheets/fonts"
     # config.assets.path << Rails.root.join("app", "assets", "fonts")
 
-    RAILS_ENV=production bundle exec rake assets:precompile
+    # RAILS_ENV=production bundle exec rake assets:precompile
   end
 end
