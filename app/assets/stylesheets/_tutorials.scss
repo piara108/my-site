@@ -9,15 +9,18 @@
   // border: $border-deets green;
 
   #tutorial-content {
+    margin-top: 5.80em;
+    
     #body-text {
       float: left;
-      margin-top: 3em;
 
       p {
         color: $font-color;
         font-size: 1.5em;
+        margin-left: 1.75em;
+
         // border: $border-deets blue;
       }
-    }  
+    }
   }
 }
